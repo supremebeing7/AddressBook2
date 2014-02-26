@@ -1,0 +1,36 @@
+#show-contact {
+display: none;
+}
+
+.contact {
+  color: #0088cc;
+}
+
+.contact:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.new-first-three {
+  width:50px;
+} 
+
+.new-next-three {
+  width:50px;
+} 
+
+.new-last-four {
+  width:60px;
+} 
+
+input[type="text"].form-control.new-first-three {
+  display: inline;
+}
+
+input[type="text"].form-control.new-next-three {
+  display: inline;
+}
+
+input[type="text"].form-control.new-last-four {
+  display: inline;
+}
